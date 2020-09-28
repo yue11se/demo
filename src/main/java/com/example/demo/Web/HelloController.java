@@ -10,6 +10,7 @@ public class HelloController {
     @GetMapping("/hello")
     public String index() {
         System.out.println("主修改1");
+        System.out.println("dev修改1");
         return "Hello World";
     }
 }
